@@ -23,8 +23,8 @@ function scrollAnimation() {
     }
   }
 
-btn.addEventListener("click", function(callback) {
-  callback.stopPropagation();
+btn.addEventListener("click", function(e) {
+  e.stopPropagation();
   scrollAnimation();
 
 }, false)
